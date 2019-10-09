@@ -76,7 +76,7 @@ $(document).ready(function(){
          $(".number").text(randomScore);
          $(".wins").text(wins);
          $(".losses").text(losses);
-        
+         $(".your-number").text(userScore);
     }
     
     
