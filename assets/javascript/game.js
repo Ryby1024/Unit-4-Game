@@ -22,25 +22,26 @@ $(document).ready(function(){
     $(".number").text(randomScore);
     $(".wins").text(wins);
     $(".losses").text(losses);
+    
 
-    $(".hero1").on("click", function(){
+    $("#hero1").on("click", function(){
         userScore = hero1 + userScore;
         console.log(userScore);
         checkScore()
     })
 
-    $(".hero2").on("click", function(){
+    $("#hero2").on("click", function(){
         userScore = hero2 + userScore;
         console.log(userScore);
         checkScore()
     })
-    $(".hero3").on("click", function(){
+    $("#hero3").on("click", function(){
         userScore = hero3 + userScore;
         console.log(userScore);
         checkScore()
     })
 
-    $(".hero4").on("click", function(){
+    $("#hero4").on("click", function(){
         userScore = hero4 + userScore;
         console.log(userScore);
         checkScore()
@@ -49,7 +50,7 @@ $(document).ready(function(){
    
     // Function to call on to check the status of the game after every click of a gem
     function checkScore(){
-        $(".your-total").text(userScore);
+        $(".your-number").text(userScore);
         if(userScore === randomScore){
             wins++;
             console.log(wins)
@@ -75,8 +76,7 @@ $(document).ready(function(){
          $(".number").text(randomScore);
          $(".wins").text(wins);
          $(".losses").text(losses);
-         $(".your-total").text(userScore);
-
+        
     }
     
     

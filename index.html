@@ -12,18 +12,19 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <div class="container">
     <div class="jumbotron">
-        <img class="mx-auto d-block banner" src="assets/images/avengersbanner.png" alt="avengersbanner">
+        <img class="mx-auto d-block banner" src="assets/images/avengersbanner.png" class="img-responsive" alt="avengersbanner">
     <h1>Defeat Thanos</h1>
     </div>
     </div>
     <div class="container">
     <div class="row">
-    <div class="col-sm-6"><img src="assets/images/thanos.png"></div>
+    <div class="col-sm-6 thanos"><img src="assets/images/thanos.png" class="img-responsive"></div>
     <div class="col-sm-6 directions"><h4>How To Play</h4>
         <p>The Avengers need your help!!</p>
         <p>Thanos is trying to regain the Infinity Stones and only you can help the Avengers defeat him.</p>
@@ -34,19 +35,19 @@
     </div>
     
     <div class="row">
-        <div class="col hero1 avengers"><img src="assets/images/captainamerica.jpg"></div>
-        <div class="col hero2 avengers"><img src="assets/images/ironman.jpg"></div>
-        <div class="col hero3 avengers"><img src="assets/images/thor.jpg"></div>
-        <div class="col hero4 avengers"><img src="assets/images/hulk.png"></div>
+        <div class="col  avengers" id="hero1"><img src="assets/images/captainamerica.jpg" class="img-responsive"></div>
+        <div class="col  avengers" id="hero2"><img src="assets/images/ironman.jpg" class="img-responsive"></div>
+        <div class="col  avengers" id="hero3"><img src="assets/images/thor.jpg" class="img-responsive"></div>
+        <div class="col  avengers" id="hero4"><img src="assets/images/hulk.png" class="img-responsive"></div>
     </div>
     <div class="row">
         <div class="col-sm-6">
-            <div class="number"><h3>Thanos' Score:</h3></div>
-            <div class="your-total"><h3>Your total score is:</h3></div>
+            <h3>Thanos' Score:<span class="number"></span></h3>
+            <h3>Your total score is:<span class="your-number"></span></h3>
         </div>
         <div class="col-sm-6">
-            <div class="wins"><h3>Wins:</h3></div>
-            <div class="losses"><h3>Losses:</h3></div>
+            <h3>Wins:<span class="wins"></span></h3>
+            <h3>Losses:<span class="losses"></span></h3>
         </div>
         
     

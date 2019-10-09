@@ -1,12 +1,20 @@
 body    {
     background-image: url("../images/Avengersbackground.jpeg");
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: 'Libre Baskerville', serif;
     color: black;
+}
+.jumbotron{
+    background: linear-gradient(blue, white, black);
 }
 h1{
     text-align: center;
-    font-size: 50px;
-    color: blue;
+    font-size: 72px;
+    background: -webkit-linear-gradient(red, white, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+       
+      
+    
 }
 .banner {
     height: 50%;
@@ -22,4 +30,7 @@ h1{
     height: auto;
     margin: 5px;
     float: left;
+}
+.thanos     {
+    margin-top: 5px;
 }
