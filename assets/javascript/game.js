@@ -15,13 +15,13 @@ let wins = 0;
 let losses = 0;
 
 
-// Game start
-
 $(document).ready(function(){
     
     $(".number").text(randomScore);
     $(".wins").text(wins);
     $(".losses").text(losses);
+    
+    
     
 
     $("#hero1").on("click", function(){
