@@ -13,9 +13,7 @@ h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
 }
-.heroes {
-    border: 3px solid black;
-}
+
 .banner {
     height: 50%;
     width: auto;
